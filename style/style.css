@@ -1,0 +1,114 @@
+.body{
+    background: url(../img/bg.png); 
+    margin: 0;
+}
+
+.login-page .login-wallpaper{
+    background: url(../img/login-wallpaper.jpg);
+    background-size: cover;
+}
+
+.login-page .login-wallpaper h2{
+    margin: 30px 20px;
+    color: #C4C4C4;
+}
+
+.login-page .login-wallpaper p{
+    position: absolute;
+    bottom: 0;
+    margin: 30px 20px;
+    color: #C4C4C4;
+    font-size: 12px;
+}
+
+.login-page .login-form{
+    text-align: center;
+    color: black;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.login-page .login-form h2{
+    margin-top: 30px;
+}
+
+.login-page form{
+    margin-top: 50px;
+}
+
+.login-page .form-group{
+    text-align: justify;
+}
+
+.login-page .form-group .error-message{
+    font-size: 13px;
+    border-style: solid;
+    background-color: #ff00001a;
+    border-color: red;
+    border-width: thin;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.login-page .form-group .verify-password{
+    margin-top: 10px;
+}
+
+.login-page .form-group .registration-link{
+    margin-top: 10px;
+    color: #6c757d!important;
+    text-align: right !important;
+    font-size: 13px;
+}
+
+.login-page .form-group .registration-message{
+    font-size: 13px;
+    border-style: solid;
+    background-color: rgba(0, 255, 128, 0.315);
+    border-color: green;
+    border-width: thin;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+.login-page .form-group label{
+    margin-top: 15px;
+}
+
+.login-page .form-group .text-muted{
+    text-align: justify;
+}
+
+.login-page .form-group button{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login-page form{
+   align-items: center;
+   align-content: center;
+   align-self: center;
+   text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .login-page .login-wallpaper
+    {
+        background-image: none;
+        background-color: black;
+        background-size: contain;
+    }
+
+    .login-page .login-wallpaper p{
+        position: relative;
+        color: #C4C4C4;
+        font-size: 12px;
+    }
+}
