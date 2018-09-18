@@ -1,0 +1,23 @@
+.registration{
+    padding-top: 50px;
+}
+.registration .registration-title{
+    text-align: center;
+    background-color: #006480;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.registration .registration-content label{
+    margin-top: 10px;
+}
+
+.registration .registration-content input, select, textarea{
+    width: 100%;
+}
+
+.registration .registration-content textarea{
+    height: 400px;
+    resize: none;
+}

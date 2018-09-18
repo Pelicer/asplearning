@@ -15,7 +15,7 @@
 <html> 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="stylesheet" type="text/css" href="style/index.css">
         <link rel="stylesheet" type="text/css" href="style/bootstrap/css/bootstrap.min.css">
         <script src="style/bootstrap/js/bootstrap.min.js"></script>
         <link rel="shortcut icon" href="img/favicon.png" />
@@ -45,7 +45,7 @@
                             <button type="submit" class="btn btn-primary">Login</button>
 
                             <div class="registration-link">
-                                <a href="/asplearning/view/registration.asp" >Not registered yet?</a>
+                                <a href="/asplearning/view/user-registration.asp" >Not registered yet?</a>
                             </div>
                         </div>
 
@@ -54,8 +54,5 @@
             </div>
         </div>
     </section>
-
-    </body>    
-
-
+    </body>   
 </html>

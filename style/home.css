@@ -1,0 +1,26 @@
+.body{
+    background: url(../img/bg.png); 
+    margin: 0;
+}
+
+.home{
+    padding-top: 50px;
+}
+.home .board-title{
+    text-align: center;
+    background-color: #006480;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.home .board-content th{
+    padding: 7px;
+    text-align: center;
+    
+}
+
+.home .board-content td{
+    padding: 7px;
+    text-align: center;
+}

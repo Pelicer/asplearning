@@ -1,0 +1,35 @@
+.header{
+    height: 50px;
+}
+.header ul{
+    display: inline !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.header small{
+    text-transform: none;
+}
+
+.header li{
+    display: inline;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.header a{
+    color: white;
+}
+.header a:hover{
+    color: rgb(223, 223, 223) !important;
+    text-decoration: none !important;
+}
+.header form{
+    margin-bottom: 0;
+}
+
+.header small{
+    margin-left: 5px;
+    margin-right: 10px;
+    color: white;
+}
