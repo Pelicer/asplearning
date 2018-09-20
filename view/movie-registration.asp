@@ -53,19 +53,6 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <label>Movie Duration:</label>
-                                            <br>
-                                            <select>
-                                                <option value="1">1hrs</option>
-                                                <option value="2">2hrs</option>
-                                                <option value="3">3hrs</option>
-                                                <option value="4">4hrs</option>
-                                                <option value="5">5hrs</option>
-                                            </select>   
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
                                             <label>Starting Hour</label>
                                             <br>
                                             <select>
@@ -108,14 +95,18 @@
                                             </select>   
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <label></label>
+                                            <label>Movie Duration:</label>
+                                            <br>
+                                            <input disabled="disabled"/>
                                         </div>
                                     </div>
-                                </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <button type="submit" class="btn btn-primary">Register</button>
+                                        </div>
+                                    </div>
                             </div>            
                         </div>
                     </form>

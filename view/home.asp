@@ -1,3 +1,4 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <html> 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -30,26 +31,26 @@
                         <table>
                            <tr>
                                <th></th>
-                               <th>RM 1</th>
-                               <th>RM 2</th>
-                               <th>RM 3</th>
-                               <th>RM 4</th>
-                               <th>RM 5</th>
-                               <th>RM 6</th>
-                               <th>RM 7</th>
-                               <th>RM 8</th>
-                               <th>RM 9</th>
-                               <th>RM 10</th>
-                               <th>RM 11</th>
-                               <th>RM 12</th>
-                               <th>RM 13</th>
-                               <th>RM 14</th>
-                               <th>RM 15</th>
-                               <th>RM 16</th>
-                               <th>RM 17</th>
-                               <th>RM 18</th>
-                               <th>RM 19</th>
-                               <th>RM 20</th>
+                               <th>GL 1</th>
+                               <th>GL 2</th>
+                               <th>GL 3</th>
+                               <th>GL 4</th>
+                               <th>GL 5</th>
+                               <th>GL 6</th>
+                               <th>GL 7</th>
+                               <th>GL 8</th>
+                               <th>GL 9</th>
+                               <th>GL 10</th>
+                               <th>GL 11</th>
+                               <th>GL 12</th>
+                               <th>GL 13</th>
+                               <th>GL 14</th>
+                               <th>GL 15</th>
+                               <th>GL 16</th>
+                               <th>GL 17</th>
+                               <th>GL 18</th>
+                               <th>GL 19</th>
+                               <th>GL 20</th>
                            </tr>
                            <tr>
                                 <td>8hr</td>

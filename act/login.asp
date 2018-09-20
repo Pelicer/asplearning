@@ -5,11 +5,13 @@ user = REQUEST("txtUserName")
 pass = REQUEST("txtPassword")
 
 sql = "SELECT COUNT(*) FROM tbl_user WHERE user_name='"& user &"' AND user_password='"& pass &"'"
-set rs = conn.execute(sql)
+SET rs = conn.execute(sql)
 
 IF rs(0) = 0 THEN
     response.redirect("/asplearning/index.asp?msg=user-not-found")
-    ELSE			
+    ELSE
+        Session("user") = user
+        Session("permission") = permission
         response.redirect("/asplearning/view/home.asp")
 END IF
 %>

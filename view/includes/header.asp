@@ -1,10 +1,9 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <link rel="stylesheet" type="text/css" href="../style/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="../style/header.css">
 <script src="../style/bootstrap/js/bootstrap.min.js"></script>        
 
 <%
-    msg = "<img src="&"../img/icons/users.png"&"><small>Wellcome</small></img>"
+    msg = "<img src="&"../img/icons/users.png"&"><small>Wellcome, </small></img>"
 %>
 
 <header>
@@ -21,8 +20,16 @@
                 <li class="nav-item active">
                     <a href="movie-registration.asp">Movie Registration</a>
                 </li>
+                <li class="nav-item active">
+                    <form class="header-li-form" action="/asplearning/act/session_handler.asp" method="post">
+                        <%Session("permissionRequired") = "Administrator"%>
+                        <%Session("destination") = "rooms-planning"%>
+                        <button type="submit">Rooms Planning</button>
+                    </form>
+                </li>
                 <li>
                     <%=msg%>
+                    <small><%=Session("user")%>!</small>
                 </li>
             </ul>
             <form action="../act/header.asp">

@@ -1,5 +1,4 @@
 .body{
-    background: url(../img/bg.png); 
     margin: 0;
 }
 
@@ -10,17 +9,17 @@
     text-align: center;
     background-color: #006480;
     color: white;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 3px;
 }
 
 .home .board-content th{
     padding: 7px;
-    text-align: center;
-    
+    text-align: center;    
+    font-size: 16px;
 }
 
 .home .board-content td{
     padding: 7px;
     text-align: center;
+    font-weight: bold;
 }
