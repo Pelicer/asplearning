@@ -1,3 +1,8 @@
+<%
+    Session("profile") = "'1','3'"
+%>
+<!--#include virtual="/asplearning/act/session_handler.asp"-->
+
 <html> 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

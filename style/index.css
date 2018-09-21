@@ -53,17 +53,6 @@
     border-radius: 5px;
 }
 
-.login-page .form-group .verify-password{
-    margin-top: 10px;
-}
-
-.login-page .form-group .registration-link{
-    margin-top: 10px;
-    color: #6c757d!important;
-    text-align: right !important;
-    font-size: 13px;
-}
-
 .login-page .form-group .registration-message{
     font-size: 13px;
     border-style: solid;
@@ -74,6 +63,29 @@
     margin-top: 15px;
     text-align: center;
     border-radius: 5px;
+}
+
+.login-page .form-group .logged-off-message{
+    font-size: 13px;
+    border-style: solid;
+    background-color: rgba(198, 209, 38, 0.315);
+    border-color: rgb(255, 251, 0);
+    border-width: thin;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.login-page .form-group .verify-password{
+    margin-top: 10px;
+}
+
+.login-page .form-group .registration-link{
+    margin-top: 10px;
+    color: #6c757d!important;
+    text-align: right !important;
+    font-size: 13px;
 }
 
 

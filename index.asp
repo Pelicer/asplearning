@@ -4,11 +4,15 @@
     msg = REQUEST.QueryString("msg")
 
     IF msg = "user-not-found" THEN
-        msg = "<p class="&"error-message"&">User not found. Please, verify your credentials</p>"
+        msg = "<p class="&"error-message"&">User not found. Please, verify your credentials.</p>"
     END IF
 
     IF msg = "registration-complete" THEN
         msg = "<p class="&"registration-message"&">You have been successfully registered!</p>"
+    END IF
+
+    IF msg = "user-logged-off" THEN
+        msg = "<p class="&"logged-off-message"&">You need to be logged in before continuing.</p>"
     END IF
 %>
 
