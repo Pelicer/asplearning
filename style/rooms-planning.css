@@ -1,0 +1,73 @@
+button{
+    width: 100%;
+}
+.planning{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.planning .planning-title{
+    text-align: center;
+    background-color: #006480;
+    color: white;
+    padding: 3px;
+}
+
+.planning table{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.planning input{
+    width: 100%;
+}
+
+.planning .linings th{
+    padding: 9px;
+    text-align: center;    
+    font-size: 17px;
+}
+
+.planning .linings .total td{
+    
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.planning .linings td{
+    padding: 7px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+.leaders{
+    text-align: left;
+}
+
+.leaders small{
+    margin-left: 5px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons button{
+    margin: 2px;
+    width: 20%;
+}
+
+.summit{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.summit p{
+    font-weight: bold;
+}
+
+.summit input{
+    margin-left: 10px;
+    width: 45%;
+    display: inline;
+}

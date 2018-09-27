@@ -32,20 +32,20 @@
             </div>
             <div class="row">
                 <div class="registration-content col-lg-12">
-                    <form>
+                    <form action="/asplearning/act/movie-registration.asp" method="post">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <label>Movie Volumes:</label>
                                     <br>
-                                    <textarea name="txtName" rows="100"></textarea>
+                                    <textarea name="txtOrders" rows="100"></textarea>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <label>Movie Family:</label>
                                             <br>
-                                            <select>
+                                            <select name="slcFamily">
                                                 <option value="Star Wars">Star Wars</option>
                                                 <option value="Resident Evil">Resident Evil</option>
                                                 <option value="Back to the Future">Back to the Future</option>
@@ -60,7 +60,7 @@
                                         <div class="col-lg-12">
                                             <label>Starting Hour</label>
                                             <br>
-                                            <select>
+                                            <select name="slcHour">
                                                 <option value="8">8hrs</option>
                                                 <option value="9">9hrs</option>
                                                 <option value="10">10hrs</option>
@@ -76,7 +76,7 @@
                                         <div class="col-lg-12">
                                             <label>Room:</label>
                                             <br>
-                                            <select>
+                                            <select name="slcGl">
                                                 <option value="1">ROOM 1</option>
                                                 <option value="2">ROOM 2</option>
                                                 <option value="3">ROOM 3</option>
