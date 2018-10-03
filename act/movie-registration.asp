@@ -7,31 +7,11 @@
     DIM family: family = REQUEST("slcFamily")
     DIM hour: hour = REQUEST("slcHour")
     DIM gl: gl = REQUEST("slcGl")
-    DIM counter: counter = 10
-    DIM length: length = LEN(orders)
-    DIM neworders
-    DIM old_counter
 
-    'Remove blank spaces from the string
-    FOR i=1 TO length-10
-        IF i=1 THEN
-            neworders = LEFT(orders, counter)
-            neworders = rtrim(neworders)
-            neworders = neworders + ","
-            old_counter = counter
-            counter=counter+12
-            ELSE
-                neworders = neworders + MID(orders, old_counter, 11)
-                neworders = rtrim(neworders)
-                neworders = neworders + ","
-                old_counter = counter
-                counter=counter+12
-                response.write("else:" + neworders + "<br><br><br>")
-        END IF
+    hour = hour & ":00"
 
-        IF i=5 THEN
-            EXIT FOR
-        END IF
-    NEXT
-    response.write(neworders)
+    insertion_query = "INSERT INTO tbl_schedule(schedule_orders, schedule_time, line_id, family_id) VALUES('"& orders &"', '"& hour &"', '"& gl &"', (SELECT family_id FROM tbl_family WHERE family_desc = '"& family &"))"
+    conn.execute(insertion_query)
+    response.redirect("/asplearning/view/home.asp")
+
 %>
